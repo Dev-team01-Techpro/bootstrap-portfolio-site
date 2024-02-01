@@ -2,3 +2,11 @@
   color: #d92cf9;
   opacity: 1;
 }
+
+.row {
+  max-width: 70%;
+  margin: 0 auto;
+  p {
+    width: 70%;
+  }
+}
