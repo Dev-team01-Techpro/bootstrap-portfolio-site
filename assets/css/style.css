@@ -13,4 +13,21 @@
   color: #d92cf9;
   opacity: 1;
 }
+.context-part{
+  display:flex;
+  justify-content: center;
+  align-items: baseline;
+  color: grey;
+}
 
+.context-part div{
+  width: 470px;
+  height: 220px;
+}
+
+.context-part .icon{
+  width: 2px;
+  height: 2px;
+  color: #E982FB;
+  font-size: 8px;
+}
