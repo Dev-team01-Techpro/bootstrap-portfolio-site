@@ -28,8 +28,7 @@
 .contact .footer-left .btn-submit:hover {
   background-color: #9f00ff;
 }
-.contact .footer-right {
-}
+
 .contact .footer-right .contact-icon {
   transition: 0.5s;
   cursor: pointer;
@@ -61,4 +60,62 @@
   height: 2px;
   color: #E982FB;
   font-size: 8px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none !important;
+}
+.about_container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+.about_text p {
+  font-family: "Poppins", sans-serif; 
+  line-height: 2pxm;
+  text-align: left;
+}
+.about_com h5 {
+  font-size:medium ;
+  font-size: 16px;
+  color: #3c4258;
+}
+.about_com p {
+  font-size: 18px;
+  color: #afb3c3;
+}
+.about_img {
+  background-image: url("../img/profile_image.jpg");
+  background-repeat: no-repeat;
+  max-width: 500px;
+  height: 468px;
+  padding: 0;
+  text-align: right;
+}
+.about_icons {
+  background-color: #1f2c6c;
+  width: 100%;
+  margin: 0;
+  height: 70px;
+}
+.about_icons a {
+  color: #fff;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.5s ease-in-out;
+  cursor: pointer;
+}
+.about_icons a:hover {
+  background-color: hsla(230, 52%, 39%, 0.953);
 }
