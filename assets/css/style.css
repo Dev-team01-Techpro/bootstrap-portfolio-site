@@ -1,13 +1,20 @@
-.header{
-    height: 750px;
-    background-image: url("../img/welcome-banner.jpg");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-          sans-serif;     
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none !important;
+}
+.header {
+  height: 750px;
+  background-image: url("../img/welcome-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .nav-link:hover {
   color: #d92cf9;
@@ -15,7 +22,7 @@
 }
 .contact {
   background-color: #f9fafe;
-  color: #656B8F;
+  color: #656b8f;
 }
 .contact .footer-left .btn-submit {
   border-radius: 0;
@@ -41,33 +48,25 @@
   font-size: 24px;
   font-weight: 600;
   padding-bottom: 20px;
-  padding-top:20px ;
+  padding-top: 20px;
 }
-.context-part{
-  display:flex;
+.context-part {
+  display: flex;
   justify-content: center;
   align-items: baseline;
   color: grey;
 }
 
-.context-part div{
+.context-part div {
   width: 470px;
   height: 220px;
 }
 
-.context-part .icon{
+.context-part .icon {
   width: 2px;
   height: 2px;
-  color: #E982FB;
+  color: #e982fb;
   font-size: 8px;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-li {
-  list-style: none !important;
 }
 .about_container {
   padding-right: 15px;
@@ -118,4 +117,23 @@ li {
 }
 .about_icons a:hover {
   background-color: hsla(230, 52%, 39%, 0.953);
+.education p {
+  width: 80%;
+  margin-bottom: 15%;
+}
+.education div .renk {
+  font-size: 55%;
+  color: #d92cf9;
+}
+.education div .renk .cizgi {
+  border: black;
+  height: 5%;
+  width: 100%;
+  margin: 5% 0;
+}
+.education div .renk i {
+  margin: 4.2% 0 0 0;
+}
+.education h2 {
+  margin-top: 1%;
 }
