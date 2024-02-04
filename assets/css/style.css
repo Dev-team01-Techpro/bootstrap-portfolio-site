@@ -73,15 +73,14 @@ li {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  
 }
 .about_text p {
-  font-family: "Poppins", sans-serif; 
+  font-family: "Poppins", sans-serif;
   line-height: 2pxm;
   text-align: left;
 }
 .about_com h5 {
-  font-size:medium ;
+  font-size: medium;
   font-size: 16px;
   color: #3c4258;
 }
@@ -117,23 +116,28 @@ li {
 }
 .about_icons a:hover {
   background-color: hsla(230, 52%, 39%, 0.953);
+}
 .education p {
   width: 80%;
   margin-bottom: 15%;
 }
 .education div .renk {
-  font-size: 55%;
-  color: #d92cf9;
+  height: 2rem;
+}
+.education div .renk .circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #d92cf9;
 }
 .education div .renk .cizgi {
   border: black;
-  height: 5%;
+  height: 1px;
   width: 100%;
-  margin: 5% 0;
 }
 .education div .renk i {
   margin: 4.2% 0 0 0;
 }
 .education h2 {
-  margin-top: 1%;
+  margin-top: 1rem;
 }
